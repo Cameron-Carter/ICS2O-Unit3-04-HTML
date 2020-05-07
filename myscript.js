@@ -15,5 +15,5 @@ function mathAlert() {
   // outputs solution to user
   alert("The area of the trapezoid is " + trapezoidArea + "." );
 }
-// event listener
+// event listener that triggers function when it senses a double click
 document.addEventListener("dblclick", mathAlert);
